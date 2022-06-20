@@ -1,0 +1,10 @@
+.main-section {
+  background-color: #001e3c;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(4px + 2vmin);
+  color: white;
+}

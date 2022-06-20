@@ -1,0 +1,17 @@
+.auto-complete-input-container {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+}
+
+.auto-complete-input-container label {
+  padding-bottom: 0.5rem;
+}
+
+.auto-complete-input-container input {
+  line-height: 1.5;
+  padding: 16px 8px;
+  border: 1px solid #434e5b;
+  color: #aab0b5;
+  background: #001e3c;
+}

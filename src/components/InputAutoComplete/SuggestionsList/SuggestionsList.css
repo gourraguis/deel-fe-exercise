@@ -1,0 +1,32 @@
+.auto-complete-suggestions-list {
+  position: absolute;
+  /* using top like this is not very optimal, but for the sake of time it looks good enough */
+  top: 110px;
+  /* overflow doesn't follow keyboard controls on this demo, on a real project I would add the relevant listener to make sure that it does */
+  overflow-y: auto;
+  max-height: 350px;
+  margin: 0;
+  padding: 0;
+  background: #1e1e1e;
+}
+
+.auto-complete-suggestion {
+  list-style-type: none;
+  line-height: 1.5;
+  font-size: 1.5rem;
+  padding: 4px 12px;
+}
+
+.auto-complete-suggestion:hover {
+  cursor: pointer;
+  background: #303030;
+}
+
+.auto-complete-suggestion-selected {
+  cursor: pointer;
+  background: #273139;
+}
+
+.highlighted-keyword {
+  background: #bc5100;
+}
